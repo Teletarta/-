@@ -1,14 +1,14 @@
 @font-face {
   font-family: "regular";
-  src: url(../Fonts/regular.ttf);
+  src: url(regular.ttf);
 }
 @font-face {
   font-family: "bold";
-  src: url(../Fonts/bold.ttf);
+  src: url(bold.ttf);
 }
 @font-face {
   font-family: "name";
-  src: url(../Fonts/Silkscreen-Bold.ttf);
+  src: url(Silkscreen-Bold.ttf);
 }
 body {
   margin: 0;
@@ -43,7 +43,7 @@ header .name {
 }
 
 body {
-  background-image: url(/Backgrounds/mario-background.jpeg);
+  background-image: url(mario-background.jpeg);
   background-attachment: fixed;
 }
 
