@@ -1,60 +1,104 @@
 @font-face {
-    font-family: "regular";
-    src: url(regular.ttf);
-  }
-  @font-face {
-    font-family: "bold";
-    src: url(bold.ttf);
-  }
-  @font-face {
-    font-family: "name";
-    src: url(Silkscreen-Bold.ttf);
-  }
-  body {
-    margin: 0;
-    box-sizing: border-box;
-  }
-  body a {
-    text-decoration: none;
-  }
-  
-  h1, h2, h3, h4, h5, h6, p {
-    margin: 0;
-  }
-  
-  header {
-    display: flex;
-    background-color: black;
-    opacity: 50%;
-    padding: 30px;
-    transition: 0.7s;
-    justify-content: space-around;
-  }
-  header a {
-    color: white;
-    font-family: "bold";
-    font-size: 20px;
-    letter-spacing: 0.2px;
-  }
-  header .name {
-    font-family: "name";
-    font-size: 25px;
-    letter-spacing: 0.2px;
-  }
-  
-  body {
-    background-image: url(mario-background.jpeg);
-    background-attachment: fixed;
-  }
-  
-  header > a:hover {
-    scale: 1.1;
-    padding: 8px;
-    transition: 0.2s;
-  }
-  
-  header:hover {
-    opacity: 100%;
-    transition: 0.7s;
-  }
-  
+  font-family: "regular";
+  src: url(regular.ttf);
+}
+@font-face {
+  font-family: "bold";
+  src: url(bold.ttf);
+}
+@font-face {
+  font-family: "name";
+  src: url(Silkscreen-Bold.ttf);
+}
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+body a {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  background-color: black;
+  opacity: 50%;
+  padding: 30px;
+  transition: 0.7s;
+  justify-content: space-around;
+  width: 100%;
+}
+header a {
+  color: white;
+  font-family: "bold";
+  font-size: 20px;
+  letter-spacing: 0.2px;
+  transition: 0.2s;
+}
+header .name {
+  font-family: "name";
+  font-size: 25px;
+  letter-spacing: 0.2px;
+}
+
+body {
+  background-image: url(/Spiderman-background.png);
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+body .Main {
+  background-color: rgb(245, 238, 229);
+  width: 1200px;
+  margin-top: 150px;
+  height: 500px;
+  border-radius: 1%;
+  padding: 20px;
+}
+body .Main .GTA h3 {
+  color: rgb(255, 127, 127);
+  font-size: 30px;
+  font-family: "bold";
+  letter-spacing: 0.5px;
+}
+body .Main .GTA p {
+  padding-top: 20px;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  font-family: "regular";
+  padding-bottom: 10px;
+}
+body .Main .Game h3 {
+  padding-top: 10px;
+  color: rgb(255, 127, 127);
+  font-size: 30px;
+  font-family: "bold";
+  letter-spacing: 0.5px;
+}
+body .Main .Game p {
+  padding-top: 20px;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  font-family: "regular";
+}
+body .Main h2 {
+  padding-top: 60px;
+  text-align: center;
+  font-family: "bold";
+}
+
+header:hover {
+  opacity: 100%;
+  transition: 0.7s;
+}
+
+header > a:hover {
+  scale: 1.1;
+  padding: 8px;
+  transition: 0.2s;
+}

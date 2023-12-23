@@ -33,11 +33,13 @@ header{
     padding: 30px; 
     transition: 0.7s;
     justify-content:space-around;
+    width: 100%;
     a{
         color: white;
         font-family: "bold";
         font-size: 20px;
         letter-spacing: 0.2px;
+        transition: 0.2s;
         
     }
 
@@ -50,8 +52,65 @@ header{
 }
 
 body{
-    background-image: url(gta6.png);
+    background-image: url(/Spiderman-background.png);
     background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .Main{
+        background-color: rgb(245, 238, 229);
+        width: 1200px;
+        margin-top: 150px;
+        height: 500px;
+        border-radius: 1%;
+        padding: 20px;
+        .GTA{
+
+            h3{
+                color: rgb(255, 127, 127);
+                font-size: 30px;
+                font-family: "bold";
+                letter-spacing: 0.5px;
+            }
+
+            p{
+                padding-top: 20px;
+                font-size: 20px;
+                letter-spacing: 0.5px;
+                font-family: "regular";
+                padding-bottom: 10px;
+            }
+
+        }
+
+
+        .Game{
+
+            h3{
+                padding-top: 10px;
+                color: rgb(255, 127, 127);
+                font-size: 30px;
+                font-family: "bold";
+                letter-spacing: 0.5px;
+            }
+
+            p{
+                padding-top: 20px;
+                font-size: 20px;
+                letter-spacing: 0.5px;
+                font-family: "regular";
+            }
+
+        }
+
+        h2{
+            padding-top: 60px;
+            text-align: center;
+            font-family: "bold";
+        }
+    }
 
 }
 
@@ -59,4 +118,10 @@ body{
 header:hover{
     opacity: 100%;
     transition: 0.7s;
+}
+
+header > a:hover{
+    scale: 1.10;
+    padding: 8px;
+    transition: 0.2s;
 }
