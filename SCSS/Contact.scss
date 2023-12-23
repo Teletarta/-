@@ -1,0 +1,223 @@
+@font-face {
+    font-family: "regular";
+    src: url(../Fonts/regular.ttf);
+}
+
+@font-face {
+    font-family: "bold";
+    src: url(../Fonts/bold.ttf);
+}
+
+@font-face {
+    font-family: "name";
+    src: url(../Fonts/Silkscreen-Bold.ttf);
+}
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+    
+    a{
+        text-decoration: none;
+    }
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    background-color: black;
+    opacity: 50%;
+    padding: 30px; 
+    transition: 0.7s;
+    justify-content:space-around;
+    width: 100%;
+    a{
+        transition: 0.2s;
+        color: white;
+        font-family: "bold";
+        font-size: 20px;
+        letter-spacing: 0.2px;
+        
+    }
+
+    .name{
+        font-family: "name";
+        font-size: 25px;
+        letter-spacing: 0.2px;
+
+    }
+}
+
+body{
+    background-image: url(/Backgrounds/Watchdogs-background-R.jpg);
+    background-attachment: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+        .Left{
+            font-family: "regular";
+            height: 180px;
+            margin: 100px;
+            width: 300px;
+            border-radius: 5%;
+            padding: 20px;
+            background-color: rgb(223, 223, 223);
+            box-shadow: 1px 1px 20px white;
+
+            .TELET{
+                animation-duration: 1s;
+                animation: Tele 300ms ease-in-out;
+                animation-iteration-count: infinite;
+                animation-delay: 500ms;
+            }
+
+            .Logos{
+                display: flex;
+                justify-content: space-evenly;
+                margin-top:40px;
+            }
+
+            .LogoT{
+                height: 60px;
+                box-shadow: 5px 5px 20px rgb(0, 149, 255);
+            }
+
+            .LogoG{
+                height: 60px;
+                box-shadow: 5px 5px 20px rgb(33, 33, 33);
+                width: 60px;
+            }
+        }
+
+        .mid{
+            background-color: rgb(223,223,223);
+            padding: 20px;
+            height: 350px;
+            width: 253.7px;
+            border-radius: 5%;
+            box-shadow: 1px 1px 20px rgb(223, 223, 223);
+            margin-top: 100px;
+
+            button{
+                background-color: rgb(255, 44, 44);
+                border: none;
+                color: white;
+                padding: 10px 14px;
+                margin-top: 15px;
+                margin-left: 90px;
+                transition: 0.3s;
+                
+            }
+
+            h3{
+                font-family: "bold";
+                margin-bottom: 10px;
+            }
+
+            textarea{
+                height: 250px;
+                width: 250px;
+                border: none;
+            }
+        }
+
+        .Right{
+            margin: 100px;
+            width: 300px;
+            padding: 30px;
+            padding-left: 17px;
+            background-color: rgb(223, 223, 223);
+            border-radius: 5%;
+            box-shadow: 1px 1px 20px gray;
+
+            h3{
+                color: black;
+                font-family: "bold";
+            }
+
+            .Name{
+                border: none;
+                width: 300px;
+                margin-top: 7px;
+                padding: 5px;
+                
+                
+            }
+            .email{
+                border: none;
+                padding: 5px;
+                width: 300px;
+                margin-top: 7px;
+            }
+            textarea{
+                border: none;
+                width: 302px;
+                height: 300px;
+                margin-top: 7px;
+                padding: 5px;
+            }
+
+            button{
+                transition: 0.3s;
+                color: black;
+                background-color: aqua;
+                border: none;
+                padding: 10px 14px;
+                margin-left: 120px;
+                border-radius: 5%;
+                box-shadow: 1px 1px 5px aqua;
+                margin-top: 12px;
+            }
+            
+        }
+
+        
+
+        
+    
+
+}
+
+
+@keyframes Tele {
+    0%{
+        color: red;
+    }
+
+    50%{
+        color: rgb(0, 156, 0);
+    }
+
+    100%{
+        color: rgb(31, 31, 255);
+    }
+
+}
+
+
+body > .mid > form > button:hover{
+    box-shadow: 1px 1px 30px rgb(255, 44, 44);
+    scale: 1.05;
+    transition: 0.3s;
+}
+
+
+header:hover{
+    opacity: 100%;
+    transition: 0.7s;
+} 
+
+body > .Right > form > button:hover{
+    box-shadow: 1px 1px 30px aqua;
+    scale: 1.05;
+    transition: 0.3s;
+}
+
+header > a:hover{
+    scale: 1.10;
+    padding: 8px;
+    transition: 0.2s;
+}
