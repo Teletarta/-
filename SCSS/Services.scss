@@ -33,7 +33,9 @@ header{
     padding: 30px; 
     transition: 0.7s;
     justify-content:space-around;
-    a{
+    width: 100%;
+    a{  
+        transition: 0.2s;
         color: white;
         font-family: "bold";
         font-size: 20px;
@@ -52,8 +54,78 @@ header{
 body{
     background-image: url(mario-background.jpeg);
     background-attachment: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    section{
+        margin-top: 100px;
+    }
+
+    .motxovna{
+        width: 300px;
+        height: 150px;
+        background-color: rgb(197, 243, 243);
+        padding: 40px;
+        border-radius: 20%;
+
+        h3{
+            font-family: "bold";
+        }
+
+        p{
+            font-family: "regular";
+        }
+
+        form{
+            margin-top: 10px;
+            
+            input{
+                height: 25px;
+                padding-left: 16px;
+                border: none;
+                box-shadow: 1px 1px 15px white;
+            }
+
+            button{
+                background-color: blanchedalmond;
+                border: none;
+                border-radius: 5%;
+                padding: 10px 14px;
+                margin-left: 5px;
+                transition: 0.4s;
+            }
+        }
+    }
+    
+    .Add{
+        background-color: rgb(169, 255, 255);
+        width: 400px;
+        height: 150px;
+        padding: 30px;
+        border-radius: 16%;
+
+        h3{
+            font-family: "bold";
+        }
+
+        p{
+            font-family: "regular";
+            a{
+                color: red;
+
+            }
+        }
+    }
+
+    
 }
 
+body > .motxovna > form > button:hover{
+    transition: 0.4s;
+    scale: 1.05;
+    box-shadow: 1px 1px 10px gray;
+}
 
 
 header > a:hover{

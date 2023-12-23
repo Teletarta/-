@@ -29,8 +29,10 @@ header {
   padding: 30px;
   transition: 0.7s;
   justify-content: space-around;
+  width: 100%;
 }
 header a {
+  transition: 0.2s;
   color: white;
   font-family: "bold";
   font-size: 20px;
@@ -45,6 +47,64 @@ header .name {
 body {
   background-image: url(mario-background.jpeg);
   background-attachment: fixed;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+body section {
+  margin-top: 100px;
+}
+body .motxovna {
+  width: 300px;
+  height: 150px;
+  background-color: rgb(197, 243, 243);
+  padding: 40px;
+  border-radius: 20%;
+}
+body .motxovna h3 {
+  font-family: "bold";
+}
+body .motxovna p {
+  font-family: "regular";
+}
+body .motxovna form {
+  margin-top: 10px;
+}
+body .motxovna form input {
+  height: 25px;
+  padding-left: 16px;
+  border: none;
+  box-shadow: 1px 1px 15px white;
+}
+body .motxovna form button {
+  background-color: blanchedalmond;
+  border: none;
+  border-radius: 5%;
+  padding: 10px 14px;
+  margin-left: 5px;
+  transition: 0.4s;
+}
+body .Add {
+  background-color: rgb(169, 255, 255);
+  width: 400px;
+  height: 150px;
+  padding: 30px;
+  border-radius: 16%;
+}
+body .Add h3 {
+  font-family: "bold";
+}
+body .Add p {
+  font-family: "regular";
+}
+body .Add p a {
+  color: red;
+}
+
+body > .motxovna > form > button:hover {
+  transition: 0.4s;
+  scale: 1.05;
+  box-shadow: 1px 1px 10px gray;
 }
 
 header > a:hover {
