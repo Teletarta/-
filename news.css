@@ -45,7 +45,7 @@ header .name {
 }
 
 body {
-  background-image: url(/Spiderman-background.png);
+  background-image: url(Spiderman-background.png);
   background-attachment: fixed;
   background-size: cover;
   display: flex;
