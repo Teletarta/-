@@ -1,0 +1,141 @@
+@font-face {
+  font-family: "regular";
+  src: url(regular.ttf);
+}
+@font-face {
+  font-family: "bold";
+  src: url(bold.ttf);
+}
+@font-face {
+  font-family: "name";
+  src: url(Silkscreen-Bold.ttf);
+}
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+body a {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  background-color: black;
+  opacity: 50%;
+  padding: 30px;
+  transition: 0.7s;
+  justify-content: space-around;
+  width: 100%;
+  height: 15%;
+}
+header a {
+  color: white;
+  font-family: "bold";
+  font-size: 20px;
+  letter-spacing: 0.2px;
+  transition: 0.2s;
+}
+header .name {
+  font-family: "name";
+  font-size: 25px;
+  letter-spacing: 0.2px;
+}
+
+body {
+  background-image: url(gta6.png);
+  background-attachment: fixed;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+body section {
+  border-radius: 1%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin-top: 150px;
+  background-color: ivory;
+  width: 1200px;
+  height: 500px;
+}
+body section img {
+  padding-top: 50px;
+  height: 400px;
+}
+body section .tablet {
+  font-family: "bold";
+  display: flex;
+}
+body section .tablet table {
+  width: 300px;
+}
+body section .tablet table th {
+  padding-left: 30px;
+}
+body section .Main {
+  margin-left: 30px;
+}
+body section .Main h3 {
+  font-family: bold;
+  font-size: 30px;
+  letter-spacing: 0.4px;
+  line-height: 40px;
+  height: 40px;
+}
+body section .Main h5 {
+  height: 25px;
+  color: red;
+  padding: 5px 5px 5px 0px;
+  font-size: 15px;
+}
+body section .Main p {
+  padding-top: 2px;
+  height: 18px;
+  opacity: 80%;
+  letter-spacing: 0.2px;
+  font-size: 14px;
+  line-height: 30px;
+}
+body section .Main h4 {
+  padding-top: 50px;
+}
+body section .Main h6 {
+  padding-top: 10px;
+  font-size: 14px;
+  width: 350px;
+}
+body section .Main .agwerra {
+  padding-top: 10px;
+}
+body section .Main form button {
+  font-family: "bold";
+  margin-left: 60px;
+  margin-top: 50px;
+  padding: 15px 40px;
+  transition: 0.2s;
+}
+
+header:hover {
+  opacity: 100%;
+  transition: 0.7s;
+}
+
+header > a:hover {
+  scale: 1.1;
+  padding: 8px;
+  transition: 0.2s;
+}
+
+.Main > form > button:hover {
+  background-color: black;
+  color: white;
+  scale: 1.05;
+  box-shadow: 1px 1px 25px black;
+  font-family: "bold";
+  transition: 0.2s;
+  border-radius: 2%;
+}
