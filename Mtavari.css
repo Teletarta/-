@@ -122,7 +122,7 @@ body > .Main > section > a > img:hover {
   transition: 0.4s;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (width <= 375px) {
   header {
     display: flex;
     background-color: black;

@@ -141,7 +141,7 @@ body > .Main > section > a > img:hover{
 }
 
 
-@media screen and (max-width:360px) {
+@media screen and (width <= 375px) {
 
     header{
         display: flex;
