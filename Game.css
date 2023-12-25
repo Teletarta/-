@@ -46,7 +46,8 @@ header .name {
 }
 
 body {
-  background-image: url(gta6.png);
+  background-image: url(gtaV-background.jpg);
+  background-size: cover;
   background-attachment: fixed;
   display: flex;
   flex-wrap: wrap;
@@ -138,4 +139,62 @@ header > a:hover {
   font-family: "bold";
   transition: 0.2s;
   border-radius: 2%;
+}
+
+@media screen and (max-width: 360px) {
+  header {
+    display: flex;
+    background-color: black;
+    padding: 30px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    opacity: 100%;
+    height: 15%;
+  }
+  header .rest {
+    display: flex;
+    padding: 18px;
+  }
+  header a {
+    color: white;
+    font-family: "bold";
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    transition: 0.2s;
+  }
+  header .name {
+    font-family: "name";
+    font-size: 25px;
+    letter-spacing: 0.2px;
+  }
+  body {
+    width: 360px;
+  }
+  body section {
+    padding: 0px;
+    height: 1500px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  body section img {
+    height: 350px;
+  }
+  body section .tablet {
+    padding-bottom: 20px;
+  }
+  body section .tablet table th {
+    font-size: 12px;
+    padding-left: 22px;
+  }
+  body section .Main {
+    margin: 0;
+  }
+  body section .Main h3 {
+    font-size: 25px;
+  }
+  body section .Main form {
+    padding-right: 50px;
+  }
 }

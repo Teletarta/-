@@ -46,7 +46,7 @@ header .name {
 }
 
 body {
-  background-image: url(gta6.png);
+  background-image: url(WOW-background.jpg);
   background-attachment: fixed;
   display: flex;
   flex-wrap: wrap;
@@ -120,4 +120,91 @@ body > .Main > .pages > a:hover {
 body > .Main > section > a > img:hover {
   opacity: 80%;
   transition: 0.4s;
+}
+
+@media screen and (max-width: 360px) {
+  header {
+    display: flex;
+    background-color: black;
+    padding: 30px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    opacity: 100%;
+    height: 15%;
+  }
+  header .rest {
+    display: flex;
+    padding: 18px;
+  }
+  header a {
+    color: white;
+    font-family: "bold";
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    transition: 0.2s;
+  }
+  header .name {
+    font-family: "name";
+    font-size: 25px;
+    letter-spacing: 0.2px;
+  }
+  body {
+    background-image: url(WOW-background.jpg);
+    background-attachment: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  body .Main {
+    margin-top: 250px;
+    margin-bottom: 50px;
+    background-color: aliceblue;
+    width: 100%;
+  }
+  body .Main section {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  body .Main section h4 {
+    font-family: bold;
+    font-size: 30px;
+    letter-spacing: 0.4px;
+    line-height: 40px;
+  }
+  body .Main section h5 {
+    color: red;
+    padding: 5px 5px 5px 0px;
+    font-size: 15px;
+  }
+  body .Main section p {
+    opacity: 80%;
+    letter-spacing: 0.2px;
+    line-height: 30px;
+    font-size: 14px;
+  }
+  body .Main section > div {
+    margin-left: 20px;
+    text-align: center;
+  }
+  body .Main section > a > img {
+    padding-left: 35px;
+    width: 250px;
+    transition: 0.4s;
+  }
+  body .Main .pages {
+    display: flex;
+    justify-content: center;
+  }
+  body .Main .pages a {
+    background-color: aliceblue;
+    margin-left: 5.5px;
+    border: 0.5px solid gray;
+    padding: 4px 8px;
+    margin-bottom: 5px;
+    transition: 0.3s;
+    border-radius: 50%;
+  }
 }
