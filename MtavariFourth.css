@@ -125,7 +125,7 @@ body > .Main > section > a > img:hover {
   transition: 0.4s;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (width <= 420px) {
     header {
       display: flex;
       background-color: black;
@@ -193,7 +193,7 @@ body > .Main > section > a > img:hover {
     text-align: center;
   }
   body .Main section > a > img {
-    padding-left: 35px;
+    padding-left: 57px;
     width: 250px;
     transition: 0.4s;
   }

@@ -118,7 +118,7 @@ header:hover {
   transition: 0.7s;
 }
 
-@media screen and (width <= 375px) {
+@media screen and (width <= 420px) {
   header {
     display: flex;
     background-color: black;
