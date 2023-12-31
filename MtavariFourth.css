@@ -165,7 +165,7 @@ body > .Main > section > a > img:hover {
   transition: 0.4s;
 }
 
-@media screen and (width <= 420px) {
+@media screen and (width <= 440px) {
     header {
       display: -webkit-box;
       display: -ms-flexbox;
