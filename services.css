@@ -148,7 +148,7 @@ header:hover {
   transition: 0.7s;
 }
 
-@media screen and (width <= 440px) {
+@media screen and (width <= 420px) {
   header {
     display: -webkit-box;
     display: -ms-flexbox;
