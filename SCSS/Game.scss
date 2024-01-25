@@ -193,8 +193,8 @@ header > a:hover{
     }
 
     body{
-        width: 360px;
         section{
+            border-radius: 0%;
             padding: 0px;
             height: 1500px;
             text-align: center;
@@ -206,9 +206,9 @@ header > a:hover{
             .tablet{
                 padding-bottom: 20px;
                 table{
+                    margin-left: -25px;
                     th{
                         font-size: 12px;
-                        padding-left: 22px;
                     }
                 }
             }

@@ -210,10 +210,9 @@ header > a:hover {
     font-size: 25px;
     letter-spacing: 0.2px;
   }
-  body {
-    width: 420px;
-  }
+
   body section {
+    border-radius: 0%;
     padding: 0px;
     height: 1500px;
     text-align: center;
@@ -230,9 +229,13 @@ header > a:hover {
   body section .tablet {
     padding-bottom: 20px;
   }
+
+  body section .tablet table{
+    margin-left: -25px;
+  }
+
   body section .tablet table th {
     font-size: 12px;
-    padding-left: 22px;
   }
   body section .Main {
     margin: 0;
