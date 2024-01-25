@@ -201,7 +201,7 @@ body > .Main > section > a > img:hover {
       letter-spacing: 0.2px;
     }
   body {
-    background-image: url(WOW-background.jpg);
+    background-image: url(witcher-background.png);
     background-attachment: fixed;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -253,7 +253,7 @@ body > .Main > section > a > img:hover {
     text-align: center;
   }
   body .Main section > a > img {
-    padding-left: 57px;
+    padding-left: 65px;
     width: 250px;
     -webkit-transition: 0.4s;
     -o-transition: 0.4s;
